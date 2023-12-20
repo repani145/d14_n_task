@@ -1,0 +1,193 @@
+<html>
+<body>
+<a href="https://repani145.github.io/task.main/">TASKS MAIN PAGE</a>
+<center>
+<h2>Job Application Form</h2>
+<p>We are an Equal Oppertinty Employer and commited to excellence Through diversity.</p>
+</center>
+<hr>
+
+<fieldset>
+<legend><h3>Personal information</h3></legend>
+<form>
+<h3>Name</h3>
+
+<table>
+<tr>
+<td><input type="text" id="fname" name="fname" placeholder="First name" required /></td>
+<td><input type="text" id="lname" name="lname" placeholder="Last name" /></td>
+</tr>
+</table>
+
+<h3>Phone Number and Email</h3>
+<table>
+<td><input type="tel" name="pnum" id="pnum" pattern="[0-9]{10} required" placeholder="XXXXXXXXXX" /></td>
+<td><input type="email" name="eml" id="eml" placeholder="example@example.com" required/></td>
+</table>
+
+<h3>Address</h3>
+<table>
+<tr>
+<td><input type="text" name="ads" id="ads" placeholder="house number"/></td>
+<td><input type="text" name="ads1" id="ads1"
+placeholder="street address" /></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td><input type="text" name="city" id="city" placeholder="City" /></td>
+<td><input type="text" name="state" id="state" placeholder="state" /></td>
+</tr>
+<tr>
+<td><input type="text" name="pcode" id="pcode" placeholder="postal /Zip code" /></td>
+</tr>
+</table>
+</fieldset>
+<br>
+
+<label for="wtime"><b>What is the best time to contact you?</b></lable> 
+<select id="wtime" name="wtime">
+<option value="please select" selected>please select</option>
+<option value="Morning Time">Morning Time</option>
+<option value="Lunch" >Lunch</option>
+<option value="Evening" >Evening</option>
+<option value="After noon" >After noon</option>
+<option value="doesn't matter">doesn't matter</option>
+</select><br><br>
+
+<label for="sscn"><b>What is your social security number?</b></label><br><br>
+<input type="text" id="sscn" name="sscn"/> <br><br>
+
+<label for=""><b>Are you currently legally entitled to work in the country where the job is based?</b></label><br>
+
+<input type="radio" name="q1" id="q1y" />
+<label for="q1y"><b>yes</b></label>
+
+<input type="radio" name="q1" id="q1n" />
+<label for="q1n"><b>no</b></label><br><br>
+
+<label for="tarea">If applicable, please detail any restrictions:
+</label><br><br>
+<textarea type="text" name="tarea" id="tarea" rows="10" cols="60"></textarea><br><br>
+
+<p><b>If selected for employment are you willing to submit a background check?</b></p>
+
+<input type="radio" name="q2" id="q2y" />
+<label for="q2y"><b>yes</b></label>
+<input type="radio" name="q2" id="q2n" />
+<label for="q2n"><b>no</b></label><br><br>
+
+<h3>Position Information</h3>
+
+<label for="appf_desir"><b>What position are you applying for and your desired employment?</b></label><br><br>
+
+<table>
+<tr>
+<td>
+<select id="appf_desir" name="appf">
+<option value="please select" selected>please select</option>
+<option value="sales">sales</option>
+<option value="Marketing">Marketing</option>
+<option value="Human Resources">HR</option>
+<option value="IT">IT</option>
+<option value="customer service">customer service</option>
+</select>
+</td>
+<td>
+<select id="appf_desir" name="desir">
+<option value="please select" selected>please select</option>
+<option value="Full Time">Full Time</option>
+<option value="Part Time">Part Time</option>
+<option value="Internship">Internship</option>
+</select>
+</td>
+</tr>
+</table><br><br>
+
+<label for="sal"><b>What is your desired pay?</b></label><br><br>
+<input type="num" name="sal" id="sla" placeholder="ex: 800 USD"/><br><br>
+
+<label for="stdt"><b>What is your desired pay?</b></label><br><br>
+<input type="month" name="stdt" id="stdt" placeholder="MM-DD-YYYY"/>
+
+<p><b>Have you worked for Company before?
+</b></p>
+<input type="radio" name="wcb" id="wcb" value="Yes" />
+<label for="wcb"><b>yes</b></label>
+<input type="radio" name="wcb" id="wcb1" value="No" />
+<label for="wcb"><b>No</b></label><br><br>
+
+<p><b>Please provide your department, manager, the time period you have worked for Company and reason of leave</b><p>
+<textarea rows="10" cols="60"></textarea>
+
+
+<fieldset>
+<legend><h3>Education</h3></legend>
+<input type="text" name="clg" id="clg" placeholder="college/institution" />
+<input type="text" name="department" id="department" placeholder="Department" />
+<br><br>
+<table>
+<tr>
+<th>Star date</th>
+<th>End date</th>
+</tr>
+<tr><td>
+<input type="month" name="std" id="std" placeholder="std" /></td>
+<td><input type="month" name="edt" id="edt" placeholder="edt" /></td>
+</tr>
+</table>
+<br>
+<button>please click here to add more+</button><br>
+</fieldset>
+
+<fieldset>
+<legend><h3>Work experience</h3></legend>
+<input type="text" name="company" id="company" placeholder="company" />
+<br><br>
+<input type="text" name="position" id="position" placeholder="position" />
+<br>
+<table>
+<tr>
+<th>Star date</th>
+<th>End date</th>
+</tr>
+<tr><td>
+<input type="month" name="std" id="std" placeholder="std" /></td>
+<td><input type="month" name="edt" id="edt" placeholder="edt" /></td>
+</tr>
+</table>
+<br>
+<button>please click here to add more+</button><br>
+</fieldset>
+
+
+<fieldset>
+<legend><h3>Qualifications</h3></legend>
+<input type="text" name="achive" id="achive" placeholder="Achievements" />
+<br><br>
+<input type="text" name="Institution" id="Institution" placeholder="Institution" /><br><br>
+<button>please click here to add more+</button><br>
+</fieldset><br><br>
+
+<label for="">upload your resume  :</label>
+<input type="file" name="resume" id="resume"/><br><br>
+
+<input type="checkbox" name="tc" id="tc" value="t&c"/>
+<label for="tc">i agree to <a href=""><ins>terms & conditions *</ins></a></label>
+
+<table>
+<tr><th>Date</th>
+<th>Signature</th></tr>
+<tr><td><input type="datetime-local" name="dof" id="dof"/></td>
+<td><input type="file" name="sign" id="sign"/></td>
+</tr>
+</table><br>
+
+<input type="reset" /><br>
+
+<center>
+<input type="submit" /></center>
+</form>
+</body>
+</html>
